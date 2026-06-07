@@ -19,3 +19,18 @@ This, in theory, should be capable of dissipating 8W in total, but limiting the 
 The Micropython code takes the Pico’s ADC measurement and converts to voltage and outputs the power in watts and dBm on a small OLED display. Pressing the push button switch captures the highest maximum value over the duration it is held down. 
 
 I use a 6V mains adapter to power the circuit , however this could be replaced by 4 x AA batteries housed in a larger box.
+| Ident | Value & Description | Qty | Notes           |
+| ----- | ------------------- | --- | --------------- |
+| C1    | 10nF Capacitor, 50V | 1   |                 |
+| D1    | BAT85 Diode         | 1   |                 |
+| D2    | 1N4001 Diode        | 1   |                 |
+| J1    | Pin Header          | 1   |                 |
+| J2    | BNC Connector       | 1   | PCB mounted     |
+| R1-R4 | 200 Ohm Resistor 2W | 4   |                 |
+| R5    | 27k Resistor 0.5W   | 1   |                 |
+| R6    | 3k Resistor 0.5W    | 1   |                 |
+| SW1   | Push button switch  | 1   | 6mm × 9.5mm h   |
+| U1    | Pico                | 1   | Microcontroller |
+| U2    | OLED 128×64         | 1   | SSD1306         |
+| J3    | Power connector     | 1   | 6V input        |
+
